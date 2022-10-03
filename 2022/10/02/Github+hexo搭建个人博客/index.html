@@ -95,7 +95,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">977</span>
+            <span class="post-count">1k</span>
         </span>
     </span>
 
@@ -104,7 +104,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">3 分钟</span>
+            <span class="post-count">4 分钟</span>
         </span>
     </span>
 </div>
@@ -161,7 +161,11 @@
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">model:</span><br><span class="line">    use: live2d-widget  <span class="comment">## 模型文件</span></span><br></pre></td></tr></table></figure>
 
 
-<h2 id="4-上传至github"><a href="#4-上传至github" class="headerlink" title="4 上传至github"></a>4 上传至github</h2> 
+<h2 id="4-部署在Github"><a href="#4-部署在Github" class="headerlink" title="4 部署在Github"></a>4 部署在Github</h2><ol>
+<li>安装<code>git</code>部署插件  <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
+<li>修改配置文件<code>_config.yml</code>，填上刚才创建仓库的地址  <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/xdr630/xdr630.github.io.git	//仓库地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
+</ol>
+ 
       <!-- reward -->
       
       <div id="reword-out">

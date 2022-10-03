@@ -66,7 +66,11 @@
 <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">model:</span><br><span class="line">    use: live2d-widget  <span class="comment">## 模型文件</span></span><br></pre></td></tr></table></figure>
 
 
-<h2 id="4-上传至github"><a href="#4-上传至github" class="headerlink" title="4 上传至github"></a>4 上传至github</h2>]]></content>
+<h2 id="4-部署在Github"><a href="#4-部署在Github" class="headerlink" title="4 部署在Github"></a>4 部署在Github</h2><ol>
+<li>安装<code>git</code>部署插件  <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
+<li>修改配置文件<code>_config.yml</code>，填上刚才创建仓库的地址  <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/xdr630/xdr630.github.io.git	//仓库地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
       <categories>
         <category>其他</category>
       </categories>

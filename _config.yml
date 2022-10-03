@@ -104,7 +104,7 @@ theme: ayer
 deploy:
   type: git
   repository: https://github.com/lvchungui/blog.git
-  branch: master
+  branch: main
 
 # hexo-generator-searchdb
 search:

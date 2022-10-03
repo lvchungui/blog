@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>谷歌浏览器访问</title>
-    <url>/2022/10/02/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/</url>
+    <url>/blog/2022/10/02/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/</url>
     <content><![CDATA[<h1 id="谷歌浏览器访问"><a href="#谷歌浏览器访问" class="headerlink" title="谷歌浏览器访问"></a><center>谷歌浏览器访问</h1><h2 id="1-下载谷歌浏览器"><a href="#1-下载谷歌浏览器" class="headerlink" title="1 下载谷歌浏览器"></a>1 下载谷歌浏览器</h2><ul>
 <li>下载地址：<a href="https://www.google.cn/intl/zh-CN/chrome/">https://www.google.cn/intl/zh-CN/chrome/</a></li>
 <li>设值中文：打开谷歌浏览器→点击右上角的设置→点击左侧的language→点击中文简体右侧的按钮→选择以这种语言显示 Google Chrome→重启浏览器即可</li>
@@ -23,7 +23,7 @@
   </entry>
   <entry>
     <title>Github+hexo搭建个人博客</title>
-    <url>/2022/10/02/Github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <url>/blog/2022/10/02/Github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="1-环境安装"><a href="#1-环境安装" class="headerlink" title="1 环境安装"></a>1 环境安装</h2><ol>
 <li>下载安装：<a href="https://nodejs.org/zh-cn/download/">node.js</a></li>
 <li>安装 hexo <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li>

@@ -102,7 +102,7 @@ theme: ayer
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repository: https://github.com/lvchungui/blog.git
   branch: master
 

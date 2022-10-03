@@ -103,8 +103,8 @@ theme: ayer
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/lvchungui/blog.git
-  branch: main
+  repository: https://gitee.com/lvchungui/lvchungun.gitee.io.git
+  branch: master
 
 # hexo-generator-searchdb
 search:

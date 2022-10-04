@@ -3,7 +3,7 @@ title: Github/Gitee+hexo搭建个人博客
 categories: 
 - 技术
 tags:
-- hexo
+- Hexo
 ---
 
 ## 1 环境安装

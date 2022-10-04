@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>谷歌浏览器访问</title>
-    <url>/2022/10/02/tech-article/1.%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/</url>
+    <url>/2022/08/10/tech-article/1-%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/</url>
     <content><![CDATA[<h2 id="1-下载谷歌浏览器"><a href="#1-下载谷歌浏览器" class="headerlink" title="1 下载谷歌浏览器"></a>1 下载谷歌浏览器</h2><ul>
 <li>下载地址：<a href="https://www.google.cn/intl/zh-CN/chrome/">https://www.google.cn/intl/zh-CN/chrome/</a></li>
 <li>设值中文：打开谷歌浏览器→点击右上角的设置→点击左侧的language→点击中文简体右侧的按钮→选择以这种语言显示 Google Chrome→重启浏览器即可</li>
@@ -23,7 +23,7 @@
   </entry>
   <entry>
     <title>生成ssh公共秘钥</title>
-    <url>/2022/08/06/tech-article/2.%E7%94%9F%E6%88%90ssh%E5%85%AC%E5%85%B1%E7%A7%98%E9%92%A5/</url>
+    <url>/2022/08/06/tech-article/2-%E7%94%9F%E6%88%90ssh%E5%85%AC%E5%85%B1%E7%A7%98%E9%92%A5/</url>
     <content><![CDATA[<h2 id="1-设置用户名和邮箱"><a href="#1-设置用户名和邮箱" class="headerlink" title="1 设置用户名和邮箱"></a>1 设置用户名和邮箱</h2><ul>
 <li><p>右键选择<code>Git Bash Here</code>，在命令框中输入执行下面两条命令</p>
   <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git config --global user.name “yourname”</span><br><span class="line">git config --global user.email“your@email.com<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
@@ -62,7 +62,7 @@
   </entry>
   <entry>
     <title>Git的简单使用</title>
-    <url>/2022/08/09/tech-article/3.Git%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</url>
+    <url>/2022/08/09/tech-article/3-Git%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<ul>
 <li>这里介绍两种简单方法，一种是使用命令的方式，另一种是图形化的方式，这里推荐使用图形化方式上传。先下载安装 git 和 tortoise git，必须先安装 git 才能安装 tortoise git</li>
 <li>git 下载地址：<a href="https://git-scm.com/">https://git-scm.com/</a></li>
@@ -117,69 +117,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Git同时上传代码至Github和Gitee</title>
-    <url>/2022/08/09/tech-article/4.Git%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E8%87%B3Github%E5%92%8CGitee/</url>
-    <content><![CDATA[<ol>
-<li><p>先克隆一个Gitee上的仓库到本地</p>
-</li>
-<li><p>然后修改项目<code>.git</code>目录下的<code>config</code>文件，把GitHub的仓库地址增加到如下图位置保存即可</p>
-<p> <img src="/../images/10.png" alt="1"></p>
-<p> <img src="/../images/11.png" alt="2"></p>
-</li>
-<li><p>看不到.git文件打开显示隐藏项目即可</p>
-<p> <img src="/../images/8f8037b8966594e1061a3a9b0905b7c5fe19c6148a84110c903ea4196850c60d.png" alt="图 1"></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
-        <tag>Gitee</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github加速访问</title>
-    <url>/2022/08/05/tech-article/5.github%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE/</url>
-    <content><![CDATA[<h2 id="1-软件介绍"><a href="#1-软件介绍" class="headerlink" title="1 软件介绍"></a>1 软件介绍</h2><ul>
-<li>github加速神器：FastGithub</li>
-<li>开源项目地址：<a href="https://github.com/dotnetcore/FastGithub">https://github.com/dotnetcore/FastGithub</a></li>
-</ul>
-<h2 id="2-软件功能"><a href="#2-软件功能" class="headerlink" title="2 软件功能"></a>2 软件功能</h2><ul>
-<li>解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题</li>
-<li>提供域名的纯净IP解析</li>
-<li>提供IP测速并选择最快的IP</li>
-<li>提供域名的tls连接自定义配置</li>
-<li>google的CDN资源替换，解决大量国外网站无法加载js和css的问题</li>
-</ul>
-<h2 id="3-软件下载"><a href="#3-软件下载" class="headerlink" title="3 软件下载"></a>3 软件下载</h2><ul>
-<li>主链接：<a href="https://github.com/dotnetcore/fastgithub/releases">https://github.com/dotnetcore/fastgithub/releases</a></li>
-<li>备用链接：<a href="https://pan.baidu.com/s/1ewHysiOaGsPH0yttFEVrvA?pwd=4qrh">https://pan.baidu.com/s/1ewHysiOaGsPH0yttFEVrvA?pwd=4qrh</a></li>
-</ul>
-<h2 id="4-软件的使用"><a href="#4-软件的使用" class="headerlink" title="4 软件的使用"></a>4 软件的使用</h2><ul>
-<li>Windows-x64桌面：双击运行FastGithub.UI.exe</li>
-</ul>
-<h2 id="5-证书验证问题"><a href="#5-证书验证问题" class="headerlink" title="5 证书验证问题"></a>5 证书验证问题</h2><h3 id="5-1-Git"><a href="#5-1-Git" class="headerlink" title="5.1 Git"></a>5.1 Git</h3><ul>
-<li>相关问题：git操作提示<code>SSL certificate problem</code></li>
-<li>解决方法：需要关闭git的证书验证，在git的命令框中输入：<code>git config --global http.sslverify false</code></li>
-</ul>
-<h3 id="5-2-火狐浏览器"><a href="#5-2-火狐浏览器" class="headerlink" title="5.2 火狐浏览器"></a>5.2 火狐浏览器</h3><ul>
-<li>相关问题：firefox提示连接有潜在的安全问题</li>
-<li>解决方法：设置→隐私与安全→证书→查看证书→证书颁发机构，导入<code>fastgithub.cer</code>文件（这个文件在cacert文件夹下），然后勾选“信任由此证书颁发机构来标识网站”</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VScode中上传到Gitee或Github</title>
-    <url>/2022/08/09/tech-article/6.VScode%E4%B8%AD%E4%B8%8A%E4%BC%A0%E5%88%B0Gitee%E6%88%96Github/</url>
+    <url>/2022/08/09/tech-article/6-VScode%E4%B8%AD%E4%B8%8A%E4%BC%A0%E5%88%B0Gitee%E6%88%96Github/</url>
     <content><![CDATA[<ol>
 <li><p>先把Gitee或Gihub的仓库克隆到本地</p>
 </li>
@@ -211,8 +150,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Git同时上传代码至Github和Gitee</title>
+    <url>/2022/08/09/tech-article/4-Git%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E8%87%B3Github%E5%92%8CGitee/</url>
+    <content><![CDATA[<ol>
+<li><p>先克隆一个Gitee上的仓库到本地</p>
+</li>
+<li><p>然后修改项目<code>.git</code>目录下的<code>config</code>文件，把GitHub的仓库地址增加到如下图位置保存即可</p>
+<p> <img src="/../images/10.png" alt="1"></p>
+<p> <img src="/../images/11.png" alt="2"></p>
+</li>
+<li><p>看不到.git文件打开显示隐藏项目即可</p>
+<p> <img src="/../images/8f8037b8966594e1061a3a9b0905b7c5fe19c6148a84110c903ea4196850c60d.png" alt="图 1"></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
+        <tag>Gitee</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github/Gitee+hexo搭建个人博客</title>
-    <url>/2022/10/02/tech-article/7.Github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <url>/2022/10/02/tech-article/7-Github+hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="1-环境安装"><a href="#1-环境安装" class="headerlink" title="1 环境安装"></a>1 环境安装</h2><ol>
 <li>下载安装：<a href="https://nodejs.org/zh-cn/download/">node.js</a></li>
 <li>安装 hexo <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li>
@@ -289,7 +252,482 @@
         <category>技术</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gitbook搭建个人笔记</title>
+    <url>/2022/10/01/tech-article/8-Gitbook%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h2 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1 环境准备"></a>1 环境准备</h2><h3 id="配置-Node-js-环境"><a href="#配置-Node-js-环境" class="headerlink" title="配置 Node.js 环境"></a>配置 Node.js 环境</h3><ul>
+<li>下载安装 Node.js，由于目前 Gitbook 项目已经停止维护，Node 过高可能出现不兼容问题。目前，Node 版本 10.# 以下版本可使用，这里给出 Node 版本 10.# 的下载链接：<a href="https://pan.baidu.com/s/1TIaieryRGJplVBd-nH8SDA?pwd=yu5h">https://pan.baidu.com/s/1TIaieryRGJplVBd-nH8SDA?pwd=yu5h</a></li>
+<li>安装成功后，打开 cmd 执行命令可查看 node 版本和 npm 版本<ul>
+<li>查看node版本：node -v</li>
+<li>查看npm版本：npm -v</li>
+</ul>
+</li>
+</ul>
+<h3 id="安装-Gitbook"><a href="#安装-Gitbook" class="headerlink" title="安装 Gitbook"></a>安装 Gitbook</h3><ul>
+<li><p>打开 cmd 执行下面命令，安装 gitbook</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install -g gitbook-cli</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="2-搭建个人笔记"><a href="#2-搭建个人笔记" class="headerlink" title="2 搭建个人笔记"></a>2 搭建个人笔记</h2><h3 id="Gitbook-初始化"><a href="#Gitbook-初始化" class="headerlink" title="Gitbook 初始化"></a>Gitbook 初始化</h3><ul>
+<li><p>创建一个文件夹，并进入到该文件夹中，执行下面命令，初始化 gitbook </p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">gitbook init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>命令执行完成之后可以看到创建了 <code>SUMMARY.md</code> 文档，这是笔记的目录文档；还有一个 <code>REAMDE.md</code> 文档，是用来对这个笔记进行介绍</p>
+</li>
+</ul>
+<h3 id="npm-初始化"><a href="#npm-初始化" class="headerlink" title="npm 初始化"></a>npm 初始化</h3><ul>
+<li><p>执行下面命令，初始化 npm</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>命令会提示输入项目信息，可默认不填写，直接回车。最后，会显示配置信息，输入yes回车即可初始化完毕</p>
+</li>
+<li><p>初始化成功后，系统会自动在当前目录创建<code>package.json</code>文件，这是 npm 的配置文件</p>
+</li>
+</ul>
+<h3 id="配置脚本命令"><a href="#配置脚本命令" class="headerlink" title="配置脚本命令"></a>配置脚本命令</h3><p><strong>配置启动脚本命令</strong></p>
+<ul>
+<li><p>在<code>package.json</code>文件的<code>scripts</code>中配置如下的脚本命令</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;serve&quot;</span>: <span class="string">&quot;gitbook serve&quot;</span>,</span><br><span class="line">    <span class="string">&quot;build&quot;</span>: <span class="string">&quot;gitbook build&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>上面分别是 gitbook 在本地启动的命令，和 gitbook 打包成 HTML 静态文件的命令</p>
+</li>
+<li><p>对于本地显示笔记，我们可以直接通过下面命令启动，启动成功后，就可以在浏览器输入 <a href="http://localhost:4000/">http://localhost:4000/</a> 查看自己的笔记，<code>gitbook build</code>命令后面再介绍 </p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">gitbook serve</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>配置插件脚本命令</strong></p>
+<ul>
+<li><p>在文件夹的根目录中创建一个<code>book.js</code>的文件，并在该文件中配置如下信息</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">    <span class="comment">// 书籍信息</span></span><br><span class="line">    <span class="attr">title</span>: <span class="string">&#x27;书名&#x27;</span>,</span><br><span class="line">    <span class="attr">description</span>: <span class="string">&#x27;描述&#x27;</span>,</span><br><span class="line">    <span class="attr">isbn</span>: <span class="string">&#x27;图书编号&#x27;</span>,</span><br><span class="line">    <span class="attr">author</span>: <span class="string">&#x27;作者&#x27;</span>,</span><br><span class="line">    <span class="attr">lang</span>: <span class="string">&#x27;zh-cn&#x27;</span>,</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 插件列表</span></span><br><span class="line">    <span class="attr">plugins</span>: [],</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 插件全局配置</span></span><br><span class="line">    <span class="attr">pluginsConfig</span>: &#123;&#125;,</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板变量</span></span><br><span class="line">    <span class="attr">variables</span>: &#123;</span><br><span class="line">        <span class="comment">// 自定义</span></span><br><span class="line">    &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在后面安装插件的时候需要在<code>book.js</code>文件中填入相关信息</p>
+</li>
+</ul>
+<h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插件不满意，也可以自己写插件。所有插件的命名都是以gitbook-plugin-xxx的形式，gitbook 插件地址：<a href="https://www.npmjs.com/">https://www.npmjs.com/</a></p>
+<h4 id="搜索插件"><a href="#搜索插件" class="headerlink" title="搜索插件"></a>搜索插件</h4><ul>
+<li><p>在命令行输入下面命令安装搜索插件search-pro，这个插件可以搜索任何字符并在 GitBook 中突出显示它</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install gitbook-plugin-search-pro</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装完成之后会多出一个<code>node_modules</code>的文件夹，这个文件夹是专门存放插件的，以后下载的插件都会存放在这个文件里</p>
+</li>
+<li><p>插件安装成功后，还要在<code>book.js</code>中的<code>plugins</code>里添加如下插件的配置。- 号代表禁用插件，如果新安装的插件和gitbook自带的插件冲突了，需要禁用自带的插件才能使用新安装的；没有冲突的话直接在<code>plugins</code>里加上插件的名字就行</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins</span>: [<span class="string">&quot;-lunr&quot;</span>,<span class="string">&quot;-search&quot;</span>,<span class="string">&quot;search-pro&quot;</span>],</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="代码插件"><a href="#代码插件" class="headerlink" title="代码插件"></a>代码插件</h4><ul>
+<li><p>在命令行输入下面命令安装代码插件code，这个插件可以在 GitBook 中显示代码和代码行号</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install gitbook-plugin-code</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>插件安装成功后，还要在<code>book.js</code>中的<code>plugins</code>里添加如下插件的配置</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins</span>: [<span class="string">&quot;-lunr&quot;</span>,<span class="string">&quot;-search&quot;</span>,<span class="string">&quot;search-pro&quot;</span>,<span class="string">&quot;code&quot;</span>],</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="菜单折叠插件"><a href="#菜单折叠插件" class="headerlink" title="菜单折叠插件"></a>菜单折叠插件</h4><ul>
+<li><p>在命令行输入下面命令安装菜单折叠插件expandable-chapters，这个插件可以对 GitBook 左侧中的目录进行折叠操作</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install gitbook-plugin-expandable-chapters</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>插件安装成功后，还要在<code>book.js</code>中的<code>plugins</code>里添加如下插件的配置</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins</span>: [<span class="string">&quot;-lunr&quot;</span>,<span class="string">&quot;-search&quot;</span>,<span class="string">&quot;search-pro&quot;</span>,<span class="string">&quot;code&quot;</span>,<span class="string">&quot;expandable-chapters&quot;</span>],</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="返回顶部插件"><a href="#返回顶部插件" class="headerlink" title="返回顶部插件"></a>返回顶部插件</h4><ul>
+<li><p>在命令行输入下面命令安装返回顶部插件back-to-top-button，这个插件可以对 GitBook 左侧中的目录进行折叠操作</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install gitbook-plugin-back-to-top-button</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>插件安装成功后，还要在<code>book.js</code>中的<code>plugins</code>里添加如下插件的配置</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins</span>: [<span class="string">&quot;-lunr&quot;</span>,<span class="string">&quot;-search&quot;</span>,<span class="string">&quot;search-pro&quot;</span>,<span class="string">&quot;code&quot;</span>,<span class="string">&quot;expandable-chapters&quot;</span>,<span class="string">&quot;back-to-top-button&quot;</span>],</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="主题插件"><a href="#主题插件" class="headerlink" title="主题插件"></a>主题插件</h4><ul>
+<li><p>在命令行输入下面命令安装lou主题插件，这个主题插件是我目前用到最好的一款</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install gitbook-plugin-theme-lou</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>插件安装成功后，还要在<code>book.js</code>中添加如下插件的配置</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// book.js </span></span><br><span class="line">&#123; </span><br><span class="line">    <span class="string">&quot;plugins&quot;</span> :  [ <span class="string">&quot;theme-lou&quot;</span> ] , </span><br><span class="line">    <span class="string">&quot;pluginsConfig&quot;</span> :  &#123; </span><br><span class="line">        <span class="string">&quot;theme-lou&quot;</span> :  &#123; </span><br><span class="line">            <span class="string">&quot;color&quot;</span> :  <span class="string">&quot;#FF4848&quot;</span> ,  <span class="comment">// 主题色 </span></span><br><span class="line">            <span class="string">&quot;favicon&quot;</span> :  <span class="string">&quot;static/favicon.ico&quot;</span> ,  <span class="comment">// favicon图标 </span></span><br><span class="line">            <span class="string">&quot;logo&quot;</span> :  <span class="string">&quot;static/logo.png&quot;</span> ,  <span class="comment">// 顶部左侧图标 </span></span><br><span class="line">            <span class="string">&quot;appleTouchIconPrecomposed152&quot;</span> :  <span class="string">&quot;static/apple.png&quot;</span> ,  <span class="comment">// apple图标 </span></span><br><span class="line">            <span class="string">&quot;copyrightLogo&quot;</span> :  <span class="string">&quot;assets/copyright.png&quot;</span> ,   <span class="comment">// 底部水印LOGO </span></span><br><span class="line">            <span class="string">&quot;forbidCopy&quot;</span> :  <span class="literal">true</span> ,  <span class="comment">// 页面是否禁止复制 </span></span><br><span class="line">            <span class="string">&quot;search-placeholder&quot;</span> :  <span class="string">&quot;Input Keywords to Search&quot;</span> ,  <span class="comment">// 搜索框默认文本 </span></span><br><span class="line">            <span class="string">&quot;book-summary-title&quot;</span> :  <span class="string">&quot;Article Directory&quot;</span> ,  <span class="comment">// 目录标题 </span></span><br><span class="line">            <span class="string">&quot;book-anchor-title&quot;</span> :  <span class="string">&quot;Search In the Article&quot;</span> ,  <span class="comment">// 本章目录标题 </span></span><br><span class="line">            <span class="string">&quot;hide-elements&quot;</span> :  [ <span class="string">&quot;.summary .gitbook-link&quot;</span> ,  <span class="string">&quot;.summary .divider&quot;</span> ] ,  <span class="comment">// 需要隐藏的标签 </span></span><br><span class="line">            <span class="string">&quot;copyright&quot;</span> :  &#123; </span><br><span class="line">                <span class="string">&quot;author&quot;</span> :  <span class="string">&quot;松露老师&quot;</span>   <span class="comment">// 底部版权展示的作者名 </span></span><br><span class="line">            &#125; </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; , </span><br><span class="line">    <span class="string">&quot;variables&quot;</span> :  &#123; </span><br><span class="line">        <span class="string">&quot;themeLou&quot;</span> :  &#123; </span><br><span class="line">        <span class="comment">// 顶部导航栏配置 </span></span><br><span class="line">            <span class="string">&quot;nav&quot;</span> :  [ </span><br><span class="line">                &#123; </span><br><span class="line">                <span class="string">&quot;target&quot;</span> :  <span class="string">&quot;_blank&quot;</span> ,  <span class="comment">// 跳转方式: 打开新页面 </span></span><br><span class="line">                <span class="string">&quot;url&quot;</span> :  <span class="string">&quot;http://...&quot;</span> ,   <span class="comment">// 跳转页面 </span></span><br><span class="line">                <span class="string">&quot;name&quot;</span> :  <span class="string">&quot;简易教程&quot;</span>   <span class="comment">// 导航名称 </span></span><br><span class="line">                &#125; </span><br><span class="line">            ] , </span><br><span class="line">            <span class="comment">// 底部打赏配置 </span></span><br><span class="line">            <span class="string">&quot;footer&quot;</span> :  &#123; </span><br><span class="line">                <span class="string">&quot;donate&quot;</span> :  &#123; </span><br><span class="line">                <span class="string">&quot;button&quot;</span> :  <span class="string">&quot;捐赠&quot;</span> ,  <span class="comment">// 打赏按钮 </span></span><br><span class="line">                <span class="string">&quot;avatar&quot;</span> :  <span class="string">&quot;头像地址&quot;</span> ,  <span class="comment">// 头像地址 </span></span><br><span class="line">                <span class="string">&quot;nickname&quot;</span> :  <span class="string">&quot;松露老师&quot;</span> ,  <span class="comment">// 昵称 </span></span><br><span class="line">                <span class="string">&quot;message&quot;</span> :  <span class="string">&quot;随意打赏，但不要超过一顿早餐钱！&quot;</span> ,  <span class="comment">// 打赏消息文本 </span></span><br><span class="line">                <span class="string">&quot;text&quot;</span> :  <span class="string">&quot;『 赠人玫瑰 🌹 手有余香 』&quot;</span> ,  <span class="comment">// 打赏话语 </span></span><br><span class="line">                <span class="string">&quot;wxpay&quot;</span> :  <span class="string">&quot;你的微信收款码地址&quot;</span> ,  <span class="comment">// 微信收款码 </span></span><br><span class="line">                <span class="string">&quot;alipay&quot;</span> :  <span class="string">&quot;你的支付宝收款码地址&quot;</span>  <span class="comment">// 支付宝收款码 </span></span><br><span class="line">                &#125; , </span><br><span class="line">                <span class="string">&quot;copyright&quot;</span> :  <span class="literal">true</span>  <span class="comment">// 是否显示版权 </span></span><br><span class="line">            &#125; </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="目录配置"><a href="#目录配置" class="headerlink" title="目录配置"></a>目录配置</h3><ul>
+<li><p>GitBook 使用文件 <code>SUMMARY.md</code> 来定义书本的章节和子章节的结构，文件 <code>SUMMARY.md</code> 被用来生成书本内容的预览表</p>
+</li>
+<li><p><code>SUMMARY.md</code> 的格式是一个简单的链接列表，链接的名字是章节的名字，链接的指向是章节文件的路径，格式如下所示</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">- [章节一](chapter1.md)</span><br><span class="line">- [章节二](chapter2.md)</span><br><span class="line">- [章节三](chapte<span class="meta">#d)</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">- [第一章](part1/README.md)</span><br><span class="line">  - [<span class="number">1.1</span> 第一节](part1/writing.md)</span><br><span class="line">  - [<span class="number">1.2</span> 第二节](part1/gitbook.md)</span><br><span class="line">- [第二章](part2/README.md)</span><br><span class="line">  - [<span class="number">2.1</span> 第一节](part2/feedback_please.md)</span><br><span class="line">  - [<span class="number">2.2</span> 第二节](part2/better_tools.md)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="额外设置"><a href="#额外设置" class="headerlink" title="额外设置"></a>额外设置</h3><ul>
+<li><p>由于这个主题右侧的目录会显示1~6级标题，而我不想显示1级标题，需要进行以下设置</p>
+</li>
+<li><p>找到<code>lou.js</code>文件，把<code>.find</code>里的h1去掉即可，如下图所示。文件路径：<code>node_modules\gitbook-plugin-theme-lou\_assets\lou.js</code></p>
+<p>  <img src="/../images/a474cad45c7ddfed6be4f491c2f29a95887e85907bc4e599fa19f68b22095a65.png" alt="图 1"></p>
+</li>
+</ul>
+<h2 id="3-服务器部署"><a href="#3-服务器部署" class="headerlink" title="3 服务器部署"></a>3 服务器部署</h2><p>这里推荐使用Github Page，因为Gitee Page 每次提交代码后还要手动更新部署，而Github Page 提交代码后会自动部署</p>
+<h3 id="Gitee-Page"><a href="#Gitee-Page" class="headerlink" title="Gitee Page"></a>Gitee Page</h3><ul>
+<li><p>在命令行输入下面命令构建项目，成功后即可在_book文件夹中生成对应的静态网页资源</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">gitbook build</span><br></pre></td></tr></table></figure>
+
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">执行命令 gitbook build 出现的问题及解决方法</span><br><span class="line"></span><br><span class="line">问题：npm报错：无法加载文件 **.ps1，因为在此系统上禁止运行脚本</span><br><span class="line">解决方法：在命令行依次执行如下命令</span><br><span class="line">    <span class="number">1.</span> 获取有效的执行策略：Get-ExecutionPolicy </span><br><span class="line">    <span class="number">2.</span> 更改当前用户执行策略：Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 gitee 上新建一个仓库，把整个文件夹全部上传到仓库里</p>
+</li>
+<li><p>点击仓库→点击服务→点击 Gitee pages</p>
+<p>  <img src="/../images/3e11efbb6c4524dd2e0a165903e1be4f515a7d75f4cfc048dff04a90bc5ae0c0.png" alt="图 1">  </p>
+<p>  <img src="/../images/05a4fbb9285610cf64cc9bfa2d4f7bffd4559877b9f206c00484d28cca3affec.png" alt="图 2"></p>
+</li>
+</ul>
+<h3 id="Github-Page"><a href="#Github-Page" class="headerlink" title="Github Page"></a>Github Page</h3><p>由于 Github Page 在部署目录的时候只能选择根目录或者<code>docs</code>目录，为了方便部署，我选择用<code>docs</code>目录部署。所以在本地<code>gitbook build</code>的操作会和之前有所不一样，按照下面的步骤执行即可</p>
+<ul>
+<li><p>由于执行<code>gitbook build</code>命令会默认在<code>_book</code>文件中生成对应的静态网页资源，而我们得在<code>docs</code>文件夹内生成对应的静态网页资源，所以在命令行输入下面命令构建项目，成功后即可在docs文件夹中生成对应的静态网页资源</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">gitbook build ./ ./docs</span><br></pre></td></tr></table></figure>
+
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">参数一，书籍所在的目录，如果执行build指令时位于当前项目目录，输入./</span><br><span class="line">参数二，输出的目录，相对于当前目录</span><br></pre></td></tr></table></figure>
+
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">执行命令 gitbook build ./ ./docs 出现的问题及解决方法</span><br><span class="line"></span><br><span class="line">问题：Error: ENOENT: no such file or directory, open <span class="string">&#x27;D:\Repositories\gitbook\_book\gitbook\gitbook-plugin-theme-lou\logo.png&#x27;</span></span><br><span class="line">解决方法：找到index.js文件，把里面的_book改成docs。文件路径： node_modules\gitbook-plugin-theme-lou\index.js</span><br></pre></td></tr></table></figure>
+
+<p>  <img src="/../images/41cf5fba8e6a31f5052b0e5fc209af73cf04531067b278103c00aa2f8b45d162.png" alt="图 2">  </p>
+</li>
+<li><p>在 github 上新建一个仓库，把整个文件夹全部上传到仓库里</p>
+</li>
+<li><p>点击仓库的设置→点击pages，按照下图设置即可</p>
+<p>  <img src="/../images/77ba37fd9dba0d1bdb31557bea072ed93036449bdc056f123af44cadbae83523.png" alt="图 3"></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Gitbook</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决Hexo和Gitbook因node版本冲突的问题</title>
+    <url>/2022/10/04/tech-article/9-%E8%A7%A3%E5%86%B3hexo%E5%92%8Cgitbook%E5%9B%A0node%E7%89%88%E6%9C%AC%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<ul>
+<li>问题：由于gitbook要在低版本的node下运行，而hexo则需要在高版本的node下运行，所以同时使用hexo和gitbook时难免会发生冲突。使用高版本的node时，使用gitbook执行命令时会出现以下错误  <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">C:\Users\<span class="number">61772</span>\AppData\Roaming\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:<span class="number">287</span></span><br></pre></td></tr></table></figure></li>
+<li>解决方法：<ol>
+<li><p>按住Ctrl左击上面的路径会打开一个js文件</p>
+</li>
+<li><p>找到文件的62、63和64行，把有函数名<code>statstatFix</code>的这三行注释掉即可</p>
+<p> <img src="/../images/9900c370561e3c988f2a8dd5601f4dcfb29765aec9a5eb21607cacbe0b1d56f5.png" alt="图 1"></p>
+</li>
+</ol>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Gitbook</tag>
+        <tag>Hexo</tag>
+        <tag>Node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法</title>
+    <url>/2022/08/18/tech-article/10-Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1 准备工作"></a>1 准备工作</h2><ul>
+<li>下载工具： <a href="https://code.visualstudio.com/">Visual Studio Code</a>  </li>
+<li>安装插件:<ol>
+<li><p>Markdown All in One ，这个辅助Markdown写作的，很多实用的功能</p>
+</li>
+<li><p>Markdown PDF ，这个可以把Markdown渲染成PDF或图片，这样你可以发给不会 使用Markdown的人阅读，但是这种方式出来的PDF没有书签，后面会讲一种输出带书签的PDF </p>
+</li>
+<li><p>Markdown Image ，这个允许你直接将图片粘贴到Markdown文件 </p>
+</li>
+<li><p>Code Spell Checker ，这个是拼写检查，帮你找错别字的，这个是支持英文，需要中文的话可以使用Spell Right   </p>
+</li>
+<li><p>Markdown Preview Enhanced ，这个提供侧边PDF预览 </p>
+<p>   <img src="/../images/9701d06429dd699a467fc402a2170e342cdf1e033393e7270835dc7162572a34.png" alt="图 1">  </p>
+</li>
+<li><p>VSCode Markdown Mind Map Preview ，这个提供侧边思维导图预览 </p>
+<p>   <img src="/../images/39da9d46e13f8f47e6a3b43ec74c38a36e6ba97e139b063ba114e191838854aa.png" alt="图 2">  </p>
+</li>
+<li><p>Markdown Table（要下载2个）</p>
+<ul>
+<li><p>这个可以把选中的文字制作成表格</p>
+<p> <img src="/../images/16220988c08e72265207398c35e8597010baa0ad7bb9966a9afc7d5a19368950.png" alt="图 2"> </p>
+</li>
+<li><p>这个可以对表格中的文字进行居中居中居右操作</p>
+<p> <img src="/../images/d11aa2543e1a2ad4160c2e787746ab490ee1df6606cc3d3666a653f056aa62dd.png" alt="图 1"></p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="2-Markdown-基本语法"><a href="#2-Markdown-基本语法" class="headerlink" title="2 Markdown 基本语法"></a>2 Markdown 基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><ul>
+<li><p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推 </p>
+</li>
+<li><p>使用方法如下</p>
+  <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># <span class="number">1</span>级标题</span><br><span class="line">## <span class="number">2</span>级标题</span><br><span class="line">### <span class="number">3</span>级标题</span><br><span class="line">#### <span class="number">4</span>级标题</span><br><span class="line">##### <span class="number">5</span>级标题</span><br><span class="line">###### <span class="number">6</span>级标题</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><ul>
+<li>换行：两个空格+回车</li>
+<li>换段：两个回车</li>
+<li>空格符：<code>&amp;emsp;</code></li>
+<li>居中：在文字前面加上<code>&lt;center&gt;</code>即可</li>
+</ul>
+<h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><h4 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h4><ul>
+<li><p>斜体：两边各一个* ，快捷键：Ctrl+i </p>
+</li>
+<li><p>加粗：两边各两个*，快捷键：Ctrl+b</p>
+</li>
+<li><p>粗斜体：两边各三个*，快捷键：（ctrl+i）+（ctrl+b），先后顺序无所谓 </p>
+</li>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">*斜体文本*   </span><br><span class="line">**粗体文本**   </span><br><span class="line">***粗斜体文本*** </span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下</p>
+<p> <em>斜体文本</em><br> <strong>粗体文本</strong><br> <em><strong>粗斜体文本</strong></em></p>
+</li>
+</ul>
+<h4 id="字体大小及颜色"><a href="#字体大小及颜色" class="headerlink" title="字体大小及颜色"></a>字体大小及颜色</h4><ul>
+<li><p>使用方法如下</p>
+<p> <code>&lt;font size=&quot;3&quot; color=&quot;red&quot;&gt;我是一段文字&lt;/font&gt;</code></p>
+</li>
+<li><p>显示效果如下</p>
+<p> <font size="3" color="red">我是一段文字</font></p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">size的取值为：<span class="number">1</span>~<span class="number">7</span></span><br><span class="line">颜色可以用关键词也可以用十六进制</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><ul>
+<li>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，快捷键：Alt+s</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">~~床前明月光~~</span><br><span class="line">~~疑是地上霜~~</span><br><span class="line">~~举头望明月~~</span><br><span class="line">~~低头思故乡~~</span><br></pre></td></tr></table></figure></li>
+<li><p>显示效果如下 </p>
+<p> <del>床前明月光</del><br> <del>疑是地上霜</del><br> <del>举头望明月</del><br> <del>低头思故乡</del></p>
+</li>
+</ul>
+<h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;好好学习天天向上&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下 </p>
+<p> <u>好好学习天天向上</u></p>
+</li>
+</ul>
+<h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><ul>
+<li>可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。 你也可以在星号或是减号中间插入空格</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">床前明月光</span><br><span class="line">***</span><br><span class="line">疑是地上霜</span><br><span class="line">* * *</span><br><span class="line">举头望明月</span><br><span class="line">****</span><br><span class="line">低头思故乡</span><br><span class="line">- - -</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下   </p>
+<p> 床前明月光   </p>
+<hr>
+<p> 疑是地上霜     </p>
+<hr>
+<p> 举头望明月  </p>
+<hr>
+<p> 低头思故乡  </p>
+<hr>
+</li>
+</ul>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><ul>
+<li>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记， 这些标记后面要添加一个空格，然后再填写内容</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</li>
+</ul>
+<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><ul>
+<li>有序列表使用数字并加上 . 号来表示</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span> 第一项</span><br><span class="line"><span class="number">2.</span> 第二项</span><br><span class="line"><span class="number">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+</li>
+</ul>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><ul>
+<li><p>要添加图像，使用感叹号 !，然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">![图片alt](图片链接 <span class="string">&quot;图片title&quot;</span>)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>快捷方法：复制图片然后右键点击粘贴图片，快捷键：shift+alt+v</p>
+<p> <img src="/../images/67bf26b90257ff3aff3ec85d7ca8541c60723bbe5eea7c7538cbd798fd32556a.png" alt="图 3"></p>
+</li>
+</ul>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下</p>
+<ol>
+<li>这是一个 <a href="https://www.limfx.pro/">链接</a>  </li>
+<li><a href="https://www.limfx.pro/">https://www.limfx.pro/</a></li>
+</ol>
+</li>
+<li><p>快捷方法:直接复制网址然后选中文字再粘贴</p>
+</li>
+</ul>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul>
+<li>单行代码：用 &#96;&#96; 包裹起来（这是键盘左上角的点，不是单引号）</li>
+<li>多行代码：用&#96;&#96;&#96;或~~~上下包起来即可，想要高亮就在第一行的3个点处加上语言的名称,要显示代码的行数得加上{.line-numbers}</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+<p>  <img src="/../images/c0909cdd4df01d7056c5cf4dc2c343497eefa9cb68eb7cc996739b672c11c31a.png" alt="图 1">  </p>
+</li>
+<li><p>显示效果如下</p>
+<ul>
+<li>单行：<code>printf(&quot;%d\n&quot;,a);</code></li>
+<li>多行：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">int a;</span><br><span class="line">a=10;</span><br><span class="line">printf(&quot;%d\n&quot;,a);</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><ul>
+<li><p>使用方法如下</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">表头<span class="number">1</span>   | 表头<span class="number">2</span>  </span><br><span class="line">----  | ----  </span><br><span class="line">单元格a1  | 单元格b1 </span><br><span class="line">单元格a1  | 单元格b2 </span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">表头1</th>
+<th align="center">表头2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">单元格a1</td>
+<td align="center">单元格b1</td>
+</tr>
+<tr>
+<td align="center">单元格a1</td>
+<td align="center">单元格b2</td>
+</tr>
+</tbody></table>
+<ul>
+<li>快捷方法<ul>
+<li><p>将文字排好，选中文字右键点击Convert to table，快捷键：选中文字然后按Shift + ctrl + F</p>
+<p>  <img src="/../images/f4ea7e50dabdfd01f695dc883d7ec4ef526cb41f1072b02863ee24db0cd435ed.png" alt="图 3">  </p>
+</li>
+<li><p>对表格文字进行居中居左居右操作</p>
+<p>  <img src="/../images/8341dd21d5891479f4c878e21875f45150680d0f473652087ec1e58e66b0ead2.png" alt="图 4"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><ul>
+<li>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号</li>
+</ul>
+<ul>
+<li><p>使用方法如下</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">&gt; 床前明月光，疑是地上霜；举头望明月，低头思故乡</span><br><span class="line">&gt; 好好学习天天向上</span><br><span class="line">&gt; 笨鸟先飞</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示效果如下  </p>
+<blockquote>
+<p>床前明月光，疑是地上霜；举头望明月，低头思故乡<br>好好学习天天向上<br>笨鸟先飞</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h3><ul>
+<li><p>按Ctrl+Shift+p打开命令框→搜索content，然后选择创建目录</p>
+</li>
+<li><p>目录会自动更新不用担心</p>
+<p> <img src="/../images/4c15007cd63007b616f7a511d6d7ef67db5d409e013dd1b0ae13e3b05bfbc5c4.png" alt="图 7"></p>
+</li>
+</ul>
+<h2 id="3-Markdown-输出"><a href="#3-Markdown-输出" class="headerlink" title="3 Markdown 输出"></a>3 Markdown 输出</h2><h3 id="输出为PDF格式"><a href="#输出为PDF格式" class="headerlink" title="输出为PDF格式"></a>输出为PDF格式</h3><ul>
+<li><p>第一种方法是在VScode中下MarkdownPDF插件，然后在.md界面下右键即可选择，但是这种方法输出的PDF不带书签，我建议用第二种方法 </p>
+<p> <img src="/../images/1.png"></p>
+</li>
+<li><p>第二种方法是电脑上安装<a href="https://www.princexml.com/download/">Prince</a>，然后在预览界面右键选择PDF(prince)即可导出</p>
+<ul>
+<li><p>进入prince官网，点击电脑版本对应的链接进行下载并安装，下载完成并安装，默认安装位置应该是C:\Program Files (x86)\Prince，也可以自主选择，我建议默认即可  </p>
+<p><img src="/../images/2.png"></p>
+</li>
+</ul>
+</li>
+<li><p>关于第二种方法出现问题的解决方案<br>错误：princexml is required to be installed<br>解决方法：</p>
+<ol>
+<li><p>选择右键我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;系统变量-&gt;Path-&gt;编辑  </p>
+<p>   <img src="/../images/3.png"></p>
+</li>
+<li><p>把你的安装路径\engine\bin这一路径添加到新建Path环境变量即可。默认路径即为C:\Program Files (x86)\Prince\engine\bin   </p>
+<p>   <img src="/../images/4.png">  </p>
+</li>
+<li><p>重启VScode即可</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="输出为word格式"><a href="#输出为word格式" class="headerlink" title="输出为word格式"></a>输出为word格式</h3><ul>
+<li><p>在VScode中下载pandoc插件</p>
+</li>
+<li><p>在电脑上安装<a href="https://pandoc.org/installing.html">Pandoc</a>这个软件  </p>
+</li>
+<li><p>按下ctrl+shift+p，在命令框中输入pandoc render即可</p>
+<p><img src="/../images/5.png"></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github加速访问</title>
+    <url>/2022/08/05/tech-article/5-Github%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE/</url>
+    <content><![CDATA[<h2 id="1-软件介绍"><a href="#1-软件介绍" class="headerlink" title="1 软件介绍"></a>1 软件介绍</h2><ul>
+<li>github加速神器：FastGithub</li>
+<li>开源项目地址：<a href="https://github.com/dotnetcore/FastGithub">https://github.com/dotnetcore/FastGithub</a></li>
+</ul>
+<h2 id="2-软件功能"><a href="#2-软件功能" class="headerlink" title="2 软件功能"></a>2 软件功能</h2><ul>
+<li>解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题</li>
+<li>提供域名的纯净IP解析</li>
+<li>提供IP测速并选择最快的IP</li>
+<li>提供域名的tls连接自定义配置</li>
+<li>google的CDN资源替换，解决大量国外网站无法加载js和css的问题</li>
+</ul>
+<h2 id="3-软件下载"><a href="#3-软件下载" class="headerlink" title="3 软件下载"></a>3 软件下载</h2><ul>
+<li>主链接：<a href="https://github.com/dotnetcore/fastgithub/releases">https://github.com/dotnetcore/fastgithub/releases</a></li>
+<li>备用链接：<a href="https://pan.baidu.com/s/1ewHysiOaGsPH0yttFEVrvA?pwd=4qrh">https://pan.baidu.com/s/1ewHysiOaGsPH0yttFEVrvA?pwd=4qrh</a></li>
+</ul>
+<h2 id="4-软件的使用"><a href="#4-软件的使用" class="headerlink" title="4 软件的使用"></a>4 软件的使用</h2><ul>
+<li>Windows-x64桌面：双击运行FastGithub.UI.exe</li>
+</ul>
+<h2 id="5-证书验证问题"><a href="#5-证书验证问题" class="headerlink" title="5 证书验证问题"></a>5 证书验证问题</h2><h3 id="5-1-Git"><a href="#5-1-Git" class="headerlink" title="5.1 Git"></a>5.1 Git</h3><ul>
+<li>相关问题：git操作提示<code>SSL certificate problem</code></li>
+<li>解决方法：需要关闭git的证书验证，在git的命令框中输入：<code>git config --global http.sslverify false</code></li>
+</ul>
+<h3 id="5-2-火狐浏览器"><a href="#5-2-火狐浏览器" class="headerlink" title="5.2 火狐浏览器"></a>5.2 火狐浏览器</h3><ul>
+<li>相关问题：firefox提示连接有潜在的安全问题</li>
+<li>解决方法：设置→隐私与安全→证书→查看证书→证书颁发机构，导入<code>fastgithub.cer</code>文件（这个文件在cacert文件夹下），然后勾选“信任由此证书颁发机构来标识网站”</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
       </tags>
   </entry>
 </search>

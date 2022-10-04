@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Tag: 谷歌 |  北极熊说它怕冷</title>
+      <title>生成ssh公共秘钥 |  北极熊说它怕冷</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -63,72 +63,203 @@
       
     <main class="content on">
       <section class="outer">
-  
-  <ul class="ads">
+  <article
+  id="post-tech-article/2-生成ssh公共秘钥"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
     
-        <li>
-            <a href="">
-                <img src="" width="" alt="">
-            </a>
-        </li>
-    
-        <li>
-            <a href="">
-                <img src="" width="" alt="">
-            </a>
-        </li>
-    
-</ul>
-  
-  
-  <article class="articles">
-    
-    
-    <h1 class="page-type-title">#&nbsp谷歌</h1>
-    
-    
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2022" class="archive-year">2022</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/08/10/tech-article/1-%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/" class="archive-article-date">
-  <time datetime="2022-08-10T06:35:38.000Z" itemprop="datePublished">08/10</time>
-</a>
+    <header class="article-header">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2022/08/10/tech-article/1-%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE/"
-    >谷歌浏览器访问</a> 
-</h2>
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  生成ssh公共秘钥
+</h1>
  
 
+      
     </header>
-    
-    
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%B0%B7%E6%AD%8C/" rel="tag">谷歌</a></li></ul>
-
-    
+     
+    <div class="article-meta">
+      <a href="/2022/08/06/tech-article/2-%E7%94%9F%E6%88%90ssh%E5%85%AC%E5%85%B1%E7%A7%98%E9%92%A5/" class="article-date">
+  <time datetime="2022-08-06T02:33:41.485Z" itemprop="datePublished">2022-08-06</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
   </div>
-</article>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">223</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">1 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
       
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="1-设置用户名和邮箱"><a href="#1-设置用户名和邮箱" class="headerlink" title="1 设置用户名和邮箱"></a>1 设置用户名和邮箱</h2><ul>
+<li><p>右键选择<code>Git Bash Here</code>，在命令框中输入执行下面两条命令</p>
+  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name “yourname”</span><br><span class="line">git config --global user.email“your@email.com<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：yourname是你要设置的名字，your@email是你要设置的邮箱</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="2-删除-ssh文件夹下的-known-hosts"><a href="#2-删除-ssh文件夹下的-known-hosts" class="headerlink" title="2 删除.ssh文件夹下的 known_hosts"></a>2 删除.ssh文件夹下的 known_hosts</h2><ul>
+<li>known_host文件在<code>C:\Users\61772\.ssh</code></li>
+<li>如果是首次生成则忽略这步</li>
+</ul>
+<h2 id="3-生成秘钥"><a href="#3-生成秘钥" class="headerlink" title="3 生成秘钥"></a>3 生成秘钥</h2><ul>
+<li><p>在git命令框中执行下面命令</p>
+  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;your@email.com&quot;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：请填你设置的邮箱地址  </p>
+</blockquote>
+</li>
+<li><p>一路yes和回车，然后系统会自动在.ssh文件夹下生成两个文件，id_rsa和id_rsa.pub</p>
+</li>
+</ul>
+<h2 id="4-在-Github-x2F-Gitee-中添加秘钥"><a href="#4-在-Github-x2F-Gitee-中添加秘钥" class="headerlink" title="4 在 Github&#x2F;Gitee 中添加秘钥"></a>4 在 Github&#x2F;Gitee 中添加秘钥</h2><ul>
+<li>用记事本打开 id_rsa.pub 将全部的内容复制</li>
+<li>打开 Github&#x2F;Gitee →进入设置→进入ssh设置→点击添加秘钥，然后将刚刚复制的粘贴进去就可以了</li>
+</ul>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
       
     </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lvchungui.gitee.io/2022/08/06/tech-article/2-%E7%94%9F%E6%88%90ssh%E5%85%AC%E5%85%B1%E7%A7%98%E9%92%A5/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh%E5%85%AC%E5%85%B1%E7%A7%98%E9%92%A5/" rel="tag">ssh公共秘钥</a></li></ul>
+
+    </footer>
   </div>
-  
-  
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2022/08/09/tech-article/3-Git%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            Git的简单使用
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2022/08/05/tech-article/5-Github%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">Github加速访问</div>
+      </a>
+    
+  </nav>
 
   
+   
+    
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -261,6 +392,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link

@@ -1,0 +1,28 @@
+[
+    {
+    "name": "鬼刀",
+    "cover": "https://i.loli.net/2020/10/05/kBcvAf7INgMLaem.jpg",
+    "date": "2017-10",
+    "description": "鬼刀",
+    "url_name": "鬼刀",
+    "album": [
+        {
+            "img_url": "https://i.loli.net/2020/10/05/qtOevHpw5XImS1J.jpg",
+            "title": "鬼刀",
+            "describe": "鬼刀"
+        },
+        {
+            "img_url": "https://i.loli.net/2020/10/05/4acvniMKTx8euqp.jpg",
+            "title": "鬼刀",
+            "describe": "鬼刀"
+        },
+        {
+            "img_url": "https://i.loli.net/2020/10/05/4acvniMKTx8euqp.jpg",
+            "title": "鬼刀",
+            "describe": "鬼刀"
+        }
+        
+      ]
+    }
+]
+ 

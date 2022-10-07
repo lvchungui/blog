@@ -20,7 +20,7 @@ tags:
 
 - 打开 cmd 执行下面命令，安装 gitbook
 
-    ~~~c
+    ~~~
     npm install -g gitbook-cli
     ~~~
 
@@ -30,7 +30,7 @@ tags:
 
 - 创建一个文件夹，并进入到该文件夹中，执行下面命令，初始化 gitbook 
 
-    ~~~c
+    ~~~
     gitbook init
     ~~~
 
@@ -40,7 +40,7 @@ tags:
 
 - 执行下面命令，初始化 npm
 
-    ~~~c
+    ~~~
     npm init
     ~~~
 
@@ -63,7 +63,7 @@ tags:
 - 上面分别是 gitbook 在本地启动的命令，和 gitbook 打包成 HTML 静态文件的命令
 - 对于本地显示笔记，我们可以直接通过下面命令启动，启动成功后，就可以在浏览器输入 http://localhost:4000/ 查看自己的笔记，`gitbook build`命令后面再介绍 
 
-    ~~~c
+    ~~~
     gitbook serve
     ~~~
 
@@ -103,7 +103,7 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令安装搜索插件search-pro，这个插件可以搜索任何字符并在 GitBook 中突出显示它
 
-    ~~~c
+    ~~~
     npm install gitbook-plugin-search-pro
     ~~~
 
@@ -118,7 +118,7 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令安装代码插件code，这个插件可以在 GitBook 中显示代码和代码行号
 
-    ~~~c
+    ~~~
     npm install gitbook-plugin-code
     ~~~
 
@@ -132,7 +132,7 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令安装菜单折叠插件expandable-chapters，这个插件可以对 GitBook 左侧中的目录进行折叠操作
 
-    ~~~c
+    ~~~
     npm install gitbook-plugin-expandable-chapters
     ~~~
 
@@ -146,7 +146,7 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令安装返回顶部插件back-to-top-button，这个插件可以对 GitBook 左侧中的目录进行折叠操作
 
-    ~~~c
+    ~~~
     npm install gitbook-plugin-back-to-top-button
     ~~~
 
@@ -160,7 +160,7 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令安装lou主题插件，这个主题插件是我目前用到最好的一款
 
-    ~~~c
+    ~~~
     npm install gitbook-plugin-theme-lou
     ~~~
 
@@ -220,12 +220,12 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 - GitBook 使用文件 `SUMMARY.md` 来定义书本的章节和子章节的结构，文件 `SUMMARY.md` 被用来生成书本内容的预览表
 - `SUMMARY.md` 的格式是一个简单的链接列表，链接的名字是章节的名字，链接的指向是章节文件的路径，格式如下所示
 
-    ~~~c
+    ~~~
     - [章节一](chapter1.md)
     - [章节二](chapter2.md)
     - [章节三](chapte#d)
     ~~~
-    ~~~c
+    ~~~
     - [第一章](part1/README.md)
       - [1.1 第一节](part1/writing.md)
       - [1.2 第二节](part1/gitbook.md)
@@ -251,11 +251,11 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 在命令行输入下面命令构建项目，成功后即可在_book文件夹中生成对应的静态网页资源
 
-    ~~~c
+    ~~~
     gitbook build
     ~~~
 
-    ~~~c
+    ~~~
     执行命令 gitbook build 出现的问题及解决方法
 
     问题：npm报错：无法加载文件 **.ps1，因为在此系统上禁止运行脚本
@@ -279,16 +279,16 @@ Gitbook 最灵活的地方就是有很多插件可以使用，当然如果对插
 
 - 由于执行`gitbook build`命令会默认在`_book`文件中生成对应的静态网页资源，而我们得在`docs`文件夹内生成对应的静态网页资源，所以在命令行输入下面命令构建项目，成功后即可在docs文件夹中生成对应的静态网页资源
 
-    ~~~c
+    ~~~
     gitbook build ./ ./docs
     ~~~
 
-    ~~~c
+    ~~~
     参数一，书籍所在的目录，如果执行build指令时位于当前项目目录，输入./
     参数二，输出的目录，相对于当前目录
     ~~~
 
-    ~~~c
+    ~~~
     执行命令 gitbook build ./ ./docs 出现的问题及解决方法
 
     问题：Error: ENOENT: no such file or directory, open 'D:\Repositories\gitbook\_book\gitbook\gitbook-plugin-theme-lou\logo.png'

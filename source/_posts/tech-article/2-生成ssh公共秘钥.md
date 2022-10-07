@@ -10,7 +10,7 @@ tags:
 ## 1 设置用户名和邮箱
 - 右键选择`Git Bash Here`，在命令框中输入执行下面两条命令
 
-    ~~~c
+    ~~~
     git config --global user.name “yourname”
     git config --global user.email“your@email.com"
     ~~~
@@ -26,7 +26,7 @@ tags:
 
 - 在git命令框中执行下面命令
 
-    ~~~c
+    ~~~
     ssh-keygen -t rsa -C "your@email.com"
     ~~~
 

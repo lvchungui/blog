@@ -9,7 +9,7 @@ tags:
 ---
 
 - 问题：由于gitbook要在低版本的node下运行，而hexo则需要在高版本的node下运行，所以同时使用hexo和gitbook时难免会发生冲突。使用高版本的node时，使用gitbook执行命令时会出现以下错误
-    ~~~py
+    ~~~
     C:\Users\61772\AppData\Roaming\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:287
     ~~~
 - 解决方法：

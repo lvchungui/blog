@@ -1,25 +1,75 @@
 [
     {
-    "name": "鬼刀",
-    "cover": "https://i.loli.net/2020/10/05/kBcvAf7INgMLaem.jpg",
-    "date": "2017-10",
-    "description": "鬼刀",
-    "url_name": "鬼刀",
+    "name": "大学",
+    "cover": "/my_photos/大学/01.jpeg",
+    "date": "2018-2022",
+    "description": "大学",
+    "url_name": "大学",
     "album": [
         {
-            "img_url": "https://i.loli.net/2020/10/05/qtOevHpw5XImS1J.jpg",
-            "title": "鬼刀",
-            "describe": "鬼刀"
+            "img_url": "/my_photos/大学/01.jpeg",
+            "title": "大学",
+            "describe": "大学"
         },
         {
-            "img_url": "https://i.loli.net/2020/10/05/4acvniMKTx8euqp.jpg",
-            "title": "鬼刀",
-            "describe": "鬼刀"
+            "img_url": "/my_photos/大学/02.jpeg",
+            "title": "大学",
+            "describe": "大学"
         },
         {
-            "img_url": "https://i.loli.net/2020/10/05/4acvniMKTx8euqp.jpg",
-            "title": "鬼刀",
-            "describe": "鬼刀"
+            "img_url": "/my_photos/大学/03.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/04.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/05.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/06.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/07.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/08.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/09.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/10.jpeg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/11.jpg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/12.jpg",
+            "title": "大学",
+            "describe": "大学"
+        },
+        {
+            "img_url": "/my_photos/大学/13.jpg",
+            "title": "大学",
+            "describe": "大学"
         }
         
       ]

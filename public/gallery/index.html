@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="gallery, 北极熊说它怕冷">
+    <meta name="keywords" content="相册, 北极熊说它怕冷">
     <meta name="description" content="北极熊说它怕冷">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>gallery | 北极熊说它怕冷</title>
+    <title>相册 | 北极熊说它怕冷</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/medias/favicon.ico">
     
 
@@ -245,9 +245,7 @@
 
 <!-- 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
  -->
 
@@ -377,12 +375,12 @@
 </style>
 <main class="content">
     <div class="container chip-container">
-        <div class="card">
+        <div class="card bgi">
             <div class="card-content">
                 <div class="tag-title center-align">
                     <div class="miaoshus">
-                        <div class="title center-align">“ 光影流年 ”</div>
-                        “ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸。”                      
+                        <strong><div class="title center-align">“ 光影流年 ”</div></strong>
+                        <span><strong>“ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸 ” </strong></span>               
                     </div>
                 </div>
                 <div class="my-gallery">
@@ -397,6 +395,18 @@
                                         <a href="./大学">
                                             <img src="/medias/loading.svg" data-src="/my_photos/大学/01.jpeg" class="responsive-img" alt="img"+0 />
                                             <div class="biaotiss">“ 大学 ”<br>“ 2018-2022 ”</div>
+                                        </a>
+                                    </div>                              
+                                </div>
+                                
+                            
+                                
+                                
+                                <div class="photo col s12 m6 l4">
+                                    <div class="img-item">
+                                        <a href="./壁纸">
+                                            <img src="/medias/loading.svg" data-src="/my_photos/壁纸/24.jpg" class="responsive-img" alt="img"+1 />
+                                            <div class="biaotiss">“ 壁纸 ”<br>“ 持续更新中... ”</div>
                                         </a>
                                     </div>                              
                                 </div>
@@ -471,7 +481,7 @@
                    type="playlist"
                    id="7676422571"
                    fixed='true'
-                   autoplay='true'
+                   autoplay='false'
                    theme='#42b983'
                    loop='all'
                    order='random'
@@ -705,10 +715,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->

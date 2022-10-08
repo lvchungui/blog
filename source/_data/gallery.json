@@ -73,6 +73,191 @@
         }
         
       ]
+    },
+    {
+        "name": "壁纸",
+        "cover": "/my_photos/壁纸/24.jpg",
+        "date": "持续更新中...",
+        "description": "壁纸",
+        "url_name": "壁纸",
+        "album": [
+            {
+                "img_url": "/my_photos/壁纸/01.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/02.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/03.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/04.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/05.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/06.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/07.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/08.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/09.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/10.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/11.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/12.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/13.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/14.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/15.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/16.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/17.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/18.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/19.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/20.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/21.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/22.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/23.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/24.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/25.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/26.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/27.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/28.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/29.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/30.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/31.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/32.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/33.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/34.png",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/35.jpeg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            }
+            
+          ]
     }
 ]
  

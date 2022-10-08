@@ -262,9 +262,7 @@
 
 <!-- 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
  -->
 
@@ -276,14 +274,9 @@
     </div>
 </div> -->
 
-<!-- /
-/ -->
-
-<!-- <link rel="stylesheet" href=""> -->
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="/libs/MyGallery/baguetteBox.css">
 <!-- 该主题自带的lightGallery.js在图片多的时候会很卡，所以弃用，使用了一个我在网上找的baguetteBox，很轻量级，就是功能少了点 -->
-<!-- <script src=""></script>  -->
-<script src=""></script>
+<script src="/libs/MyGallery/baguetteBox.js"></script>
 <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 <script>
     $(function(){
@@ -389,11 +382,10 @@
     <div class="miaoshus">
         <div class="title center-align">
             “ 
-                大学
+                <span><strong>大学</strong></span>
              ”
         </div>
-        “ 光影流年 ”
-        “ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸。”
+        <span><strong>“ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸 ” </strong></span> 
     </div>
 </div>
 
@@ -491,18 +483,13 @@
 
 
 <script>
-    // baguetteBox.run('.gallery');
-    // window.addEventListener('load', function() {
-    //     baguetteBox.run('.gallery');
-    // });
-
-    // baguetteBox.run('.gallery', {
-    //     // // 配置参数
-    //     // buttons:Boolean,//是否显示导航按钮。
-    //     // noScrollbars:true,//是否在显示时隐藏滚动条。
-    //     // titleTag:true,//是否使用图片上的title属性作为图片标题
-    //     // async:true,//是否异步加载文件。
-    // });
+    baguetteBox.run('.gallery', {
+        // 配置参数
+        buttons:Boolean,//是否显示导航按钮。
+        noScrollbars:true,//是否在显示时隐藏滚动条。
+        titleTag:true,//是否使用图片上的title属性作为图片标题
+        async:true,//是否异步加载文件。
+    });
 
     start()
         $(window).on('scroll', function(){
@@ -564,7 +551,7 @@
                    type="playlist"
                    id="7676422571"
                    fixed='true'
-                   autoplay='true'
+                   autoplay='false'
                    theme='#42b983'
                    loop='all'
                    order='random'
@@ -798,10 +785,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->

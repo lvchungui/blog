@@ -255,8 +255,17 @@
                 "img_url": "/my_photos/壁纸/35.jpeg",
                 "title": "壁纸",
                 "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/36.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
+            {
+                "img_url": "/my_photos/壁纸/37.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
             }
-            
           ]
     }
 ]

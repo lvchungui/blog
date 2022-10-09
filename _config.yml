@@ -133,7 +133,7 @@ live2d:
     hOffset: 100  # 向 偏移
     vOffset: 100  # 像 偏移
   mobile:
-    show: true  # 手机端是否显示
+    show: false  # 手机端是否显示
   react:
     opacity: 0.9  # 模型透明度
 

@@ -1844,7 +1844,6 @@ footer a {
 
 footer .copy-right {
     color: #dbdbdb;
-    font-size: 1.2rem;
 }
 
 /*搜索层样式*/
@@ -2301,4 +2300,6 @@ body.DarkMode .theme-btn:hover {
     background-image: url(../medias/flowerbg-white.png);
 }
 
-
+.font_color {
+    color: #dbdbdb;
+}

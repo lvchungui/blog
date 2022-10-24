@@ -1,58 +1,58 @@
 [
     {
     "name": "大学",
-    "cover": "/my_photos/大学/01.jpeg",
+    "cover": "/my_photos/大学/01.jpg",
     "date": "2018-2022",
     "description": "大学",
     "url_name": "大学",
     "album": [
         {
-            "img_url": "/my_photos/大学/01.jpeg",
+            "img_url": "/my_photos/大学/01.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/02.jpeg",
+            "img_url": "/my_photos/大学/02.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/03.jpeg",
+            "img_url": "/my_photos/大学/03.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/04.jpeg",
+            "img_url": "/my_photos/大学/04.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/05.jpeg",
+            "img_url": "/my_photos/大学/05.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/06.jpeg",
+            "img_url": "/my_photos/大学/06.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/07.jpeg",
+            "img_url": "/my_photos/大学/07.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/08.jpeg",
+            "img_url": "/my_photos/大学/08.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/09.jpeg",
+            "img_url": "/my_photos/大学/09.jpg",
             "title": "大学",
             "describe": "大学"
         },
         {
-            "img_url": "/my_photos/大学/10.jpeg",
+            "img_url": "/my_photos/大学/10.jpg",
             "title": "大学",
             "describe": "大学"
         },
@@ -76,7 +76,7 @@
     },
     {
         "name": "壁纸",
-        "cover": "/my_photos/壁纸/24.jpg",
+        "cover": "/my_photos/壁纸/31.jpg",
         "date": "持续更新中...",
         "description": "壁纸",
         "url_name": "壁纸",
@@ -247,22 +247,12 @@
                 "describe": "壁纸"
             },
             {
-                "img_url": "/my_photos/壁纸/34.png",
+                "img_url": "/my_photos/壁纸/34.jpg",
                 "title": "壁纸",
                 "describe": "壁纸"
             },
             {
-                "img_url": "/my_photos/壁纸/35.jpeg",
-                "title": "壁纸",
-                "describe": "壁纸"
-            },
-            {
-                "img_url": "/my_photos/壁纸/36.jpg",
-                "title": "壁纸",
-                "describe": "壁纸"
-            },
-            {
-                "img_url": "/my_photos/壁纸/37.jpg",
+                "img_url": "/my_photos/壁纸/35.jpg",
                 "title": "壁纸",
                 "describe": "壁纸"
             }

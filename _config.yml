@@ -130,8 +130,8 @@ live2d:
     position: left # 定位方向 left right top bottom
     width: 150  # 小人宽度
     height: 300 #  小人高度
-    hOffset: 35  # 向 偏移
-    vOffset: 35  # 像 偏移
+    hOffset: 30  # 向 偏移
+    vOffset: 60  # 像 偏移
   mobile:
     show: false  # 手机端是否显示
   react:

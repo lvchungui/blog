@@ -76,11 +76,16 @@
     },
     {
         "name": "壁纸",
-        "cover": "/my_photos/壁纸/31.jpg",
+        "cover": "/my_photos/壁纸/30.jpg",
         "date": "持续更新中...",
         "description": "壁纸",
         "url_name": "壁纸",
         "album": [
+            {
+                "img_url": "/my_photos/壁纸/00.jpg",
+                "title": "壁纸",
+                "describe": "壁纸"
+            },
             {
                 "img_url": "/my_photos/壁纸/01.jpg",
                 "title": "壁纸",
